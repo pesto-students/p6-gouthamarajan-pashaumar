@@ -18,6 +18,12 @@ main {
 .sidebar {
   background-color: #ced6e0;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar i {
+  color: black;
 }
 .content {
   flex: 1;
@@ -29,6 +35,16 @@ header {
   column-gap: 40px;
   background-color: rgba(0, 0, 0, 0.8);
   width: calc(100% - 80px);
+}
+.header-info {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.actions {
+  display: flex;
+  column-gap: 30px;
 }
 section {
   width: calc(100% - 20px);
@@ -72,4 +88,5 @@ footer .icons {
   display: flex;
   justify-content: flex-end;
   flex: 1;
+  column-gap: 150px;
 }
