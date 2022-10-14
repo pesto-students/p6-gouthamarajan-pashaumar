@@ -21,4 +21,4 @@ const memoizeAdd = memoize(add);
 console.log(memoizeAdd(100, 100));
 console.log(memoizeAdd(100, 100));
 console.log(memoizeAdd(100, 100, 100));
-console.log(memoizeAdd(100, 100, 100));
+console.log(memoizeAdd(100, 100, 200));
