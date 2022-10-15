@@ -14,7 +14,7 @@
 //   getEmployeeIntro.call(employee, "Software Engineer", "Coditation Systems")
 // );
 
-// call method is used when we provide context to this by passing object as first parameter
+// apply method is used when we provide context to this by passing object as first parameter
 // followed by array of arguments
 // the difference between call and apply is -> we use apply method when we don't the number
 // of arguments

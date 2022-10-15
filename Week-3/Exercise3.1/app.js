@@ -1,7 +1,7 @@
 const memoize = (fn) => {
   const cache = {};
   return function (...args) {
-    const key = args.toString();
+    const key = args.sort((a, b) => a - b).toString();
     if (cache[key]) {
       console.log("cache");
       return cache[key];
